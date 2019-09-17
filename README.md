@@ -6,7 +6,7 @@ In this course, we'll engage in three mini-projects and a final project.
 
 *Pre-project assignment*: find two computational works and deconstruct them -- figure out what subcomponents you'd need to create or find in order to recreate the work. Upload your work to a [new GitHub repository](https://github.xom/zamfi/github-guide) and [email me the link](mailto:zamfi@cca.edu).
 
-Project 1: JavaScript, React, and the Web. *September 16 - October 7.*
+[Project 1: JavaScript, React, and the Web. *September 16 - October 7.*](project1.md)
 
 Project 2: Electronics and Robotics. *October 7 - October 28.*
 
