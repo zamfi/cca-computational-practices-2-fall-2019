@@ -71,3 +71,17 @@ class App extends Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
+
+#### Homework 1
+
+This week's homework is to continue the exercises from class:
+
+1. Add some extra pages to the Choose-your-own-Adventure
+
+2. Add images to your pages.
+
+3. **Challenge**: add the ability to specify up to five buttons per page. Bonus points for an arbitrary number! *Hint*: try using `if` statements in the `render()` function? Or, an array of buttons?
+
+4. Learn a bit of CSS and style things! Make them pretty!
+
+Submit your homework by exporting your project to GitHub by clicking on the GitHub icon (Octocat thing), then [emailing me](mailto:zamfi@cca.edu) the link to your GitHub repository.
