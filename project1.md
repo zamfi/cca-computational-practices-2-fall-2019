@@ -85,3 +85,5 @@ This week's homework is to continue the exercises from class:
 4. Learn a bit of CSS and style things! Make them pretty!
 
 Submit your homework by exporting your project to GitHub by clicking on the GitHub icon (Octocat thing), then [emailing me](mailto:zamfi@cca.edu) the link to your GitHub repository.
+
+[Here's a solution to buttons question that uses arrays](cyoa-buttons.js)
