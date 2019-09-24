@@ -93,7 +93,7 @@ Submit your homework by exporting your project to GitHub by clicking on the GitH
 
 This week, we'll look at inputs: how do you actually collect data from a user? Let's start with this code:
 
-```
+```javascript
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
