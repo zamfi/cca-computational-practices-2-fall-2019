@@ -171,3 +171,9 @@ class App extends Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
+
+### Week 3
+
+Yet another version of choose your own adventure! This time, we created a new class for each page. Because making a JSON object was getting ridiculous.
+
+[Here it is!](cyoa-pages.js)
