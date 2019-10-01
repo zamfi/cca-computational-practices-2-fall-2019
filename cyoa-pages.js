@@ -43,7 +43,7 @@ class TrainPage extends Component {
       <div className="page">
         <p>
           Welcome aboard the choo-choo train! Please make your way to your seat.
-          What's the number?
+          What is the number?
         </p>
         <button onClick={() => this.props.goFunction()}>12E</button>
         <button onClick={() => this.props.goFunction()}>97J</button>
