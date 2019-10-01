@@ -123,7 +123,7 @@ var pages = {
     content: () => (
       <p>
         Welcome aboard the choo-choo train! Please make your way to your seat.
-        What's the number?
+        What is the number?
       </p>
     ),
     buttons: [
