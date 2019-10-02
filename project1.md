@@ -123,7 +123,7 @@ var pages = {
     content: () => (
       <p>
         Welcome aboard the choo-choo train! Please make your way to your seat.
-        What is the number?
+        What's the number?
       </p>
     ),
     buttons: [
@@ -177,3 +177,22 @@ ReactDOM.render(<App />, rootElement);
 Yet another version of choose your own adventure! This time, we created a new class for each page. Because making a JSON object was getting ridiculous.
 
 [Here it is!](cyoa-pages.js)
+
+Make the following changes to that code:
+
+1. Use `<input>` element, instead of buttons, to record the seat number on the `TrainPage` page.
+
+2.  Use a `<select>` element for the seat number. Here's an example set of code:
+    
+    ```javascript
+    <select value={this.props.data.seat} onChange={this.props.setStateFunction(“seat”, event.target.value)}>
+      <option value="12">Seat 12</option>
+      <option value="13">Seat 13</option>
+      <option value="14">Seat 14</option>
+      <option value="15">Seat 15</option>
+    </select>
+    ```
+
+3. Add a page later in your narrative whose content depends on seat choice. E.g., if it's an even or odd number!
+
+4. Use data from a Weather API to influence the outcome of a page. For exmple, if it's snowy in Fargo, ND -- maybe your train gets stuck in a snowstorm?
