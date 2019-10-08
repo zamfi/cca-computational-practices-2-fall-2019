@@ -218,7 +218,7 @@ So, with those out of the way, let's get your code running on a local server on 
 
 3. Open a terminal, and `cd` into a new directory that will include your project. 
 
-4. Type `git clone ` and then paste in the link you copied in the previous step. Then hit return. This will copy your code into the folder you're in.
+4. Type `git clone ` and then paste in the link you copied in the previous step. Then hit return. This will copy your code into the folder you're in. Then `cd` into the folder created by `git clone`. Use `ls` to show you the contents of the folder you're in!
 
 5. Run `npm install` -- this will install all the libraries that your project depends on, including react and some other stuff.
 
