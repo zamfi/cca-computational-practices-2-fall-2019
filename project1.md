@@ -216,11 +216,13 @@ So, with those out of the way, let's get your code running on a local server on 
 
 2. Visit the GitHub repository for your project. You should see a "clone or download" button, copy that link.
 
-3. Open a terminal, and `cd` into a new directory that will include your project. Type `git clone ` and then paste in the link you copied in the previous step. Then hit return. This will copy your code into the folder you're in.
+3. Open a terminal, and `cd` into a new directory that will include your project. 
 
-4. Run `npm install` -- this will install all the libraries that your project depends on, including react and some other stuff.
+4. Type `git clone ` and then paste in the link you copied in the previous step. Then hit return. This will copy your code into the folder you're in.
 
-5. Run `npm start` -- this will start your project, and open a browser window pointed at the node server that's running your code!
+5. Run `npm install` -- this will install all the libraries that your project depends on, including react and some other stuff.
+
+6. Run `npm start` -- this will start your project, and open a browser window pointed at the node server that's running your code!
 
 #### Using Google Cloud Platform
 
@@ -237,3 +239,13 @@ Once you've created your instance, you'll need to open a specific `port` to allo
 ![new firewall rule](img/create-firewall-rule.png)
 
 With these done, go back to `Compute Engine` > `VM Instances` and Start your VM instance. Once it's running, you can connect to it with the `SSH` link. It'll open a terminal where you can issue commands.
+
+Start with this:
+
+```
+sudo apt-get install git nodejs npm
+```
+
+This will install git, node, and npm on your remote server.
+
+Then, follow steps 4-6 again from the instructions above! Finally, you'll need to get your IP address from the dashboard, something like 35.247.65.57, and then visit `35.247.65.57:3000` in your browser, replacing `35.247.65.57` with the IP address that you actually have.
