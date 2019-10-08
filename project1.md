@@ -196,3 +196,44 @@ Make the following changes to that code:
 3. Add a page later in your narrative whose content depends on seat choice. E.g., if it's an even or odd number!
 
 4. Use data from a Weather API to influence the outcome of a page. For exmple, if it's snowy in Fargo, ND -- maybe your train gets stuck in a snowstorm?
+
+
+### Week 4
+
+This week, we'll get your code off of codesandbox.io.
+
+We'll be using the command line a lot this week. While the installs are happening, take a look at this [list of terminal commands](https://files.fosswire.com/2007/08/fwunixref.pdf).
+
+Preparation:
+
+1. Make sure you have `git` installed in your command line tools. Open a terminal and type `git`. If you get an error, install `git`!
+
+2. Make sure you have `node` and `npm` installed. You can download these from the [Node.js website](http://nodejs.org). Make sure the `node` command opens a prompt on your terminal.
+
+So, with those out of the way, let's get your code running on a local server on your computer:
+
+1. Create a GitHub repository for your latest code. Click the GitHub icon on the left, give your repository a name, and save it.
+
+2. Visit the GitHub repository for your project. You should see a "clone or download" button, copy that link.
+
+3. Open a terminal, and `cd` into a new directory that will include your project. Type `git clone ` and then paste in the link you copied in the previous step. Then hit return. This will copy your code into the folder you're in.
+
+4. Run `npm install` -- this will install all the libraries that your project depends on, including react and some other stuff.
+
+5. Run `npm start` -- this will start your project, and open a browser window pointed at the node server that's running your code!
+
+#### Using Google Cloud Platform
+
+Of course the above only runs your code for as long as your laptop is open, and only allows connections from the local wifi network. To get your code running on the web permanently, we can use Google Cloud Platform.
+
+Sign up for a [Google Cloud Platform account](https://console.cloud.google.com/). You'll need to enter a credit card to prove you're human, but you won't be charged.
+
+Create a new project, then navigate to `Compute Engine` > `VM Instances` and create a new VM. You'll want to use these settings to make sure it's free! Pick your own name, though, obviously. (You may need to create a "project" for this.)
+
+![creating an instance](img/creating-an-instance.png)
+
+Once you've created your instance, you'll need to open a specific `port` to allow our development server to be publicly accessible on the internet. To do that, navigate to `VPC Network` > `Firewall Rules` and click on `Create Firewall Rule`. Use these settings:
+
+![new firewall rule](img/create-firewall-rule.png)
+
+With these done, go back to `Compute Engine` > `VM Instances` and Start your VM instance. Once it's running, you can connect to it with the `SSH` link. It'll open a terminal where you can issue commands.
