@@ -250,6 +250,8 @@ This will install git, node, and npm on your remote server.
 
 Then, follow steps 4-6 again from the instructions above! Finally, you'll need to get your IP address from the dashboard, something like 35.247.65.57, and then visit `35.247.65.57:3000` in your browser, replacing `35.247.65.57` with the IP address that you actually have.
 
+That `:3000` tells your server to connect to the program running on *port 3000*, which happens to be the port that React is using.
+
 #### Running permanently
 
 You may have noticed that closing the SSH window eventually stops your server from responding. That's because once the terminal running your server shuts down, your server shuts down with it.
@@ -262,9 +264,9 @@ Now, close your terminal and you should be golden! Server should still be up and
 
 Your homework for this week is as follows:
 
-1. Get your server up and running permanently.
+1. Get your server up and running permanently. Send me a link to the IP address and port!
 2. Make your choose your own adventure game beautiful and functional! This is the last week we'll spend working on it, so ge something you're proud of!
 3. **Optional Challenge:** Use a server like `nginx`, which you can install with `sudo apt install nginx`, to run your server without needing to specify a port number (like 3000). You are basically trying [to do this](https://stackoverflow.com/questions/24861311/forwarding-port-80-to-8080-using-nginx).
 4. **Optional Challenge**: Register a domain name and point it to your IP address. WIth 3 and 4 done, you'll have a fully functioning website running your app!
 
-Don't forget to also add to your project decompositions list your render- and data-focused decomposition of a computer or video game!
+Don't forget to also add to your project decompositions list your render- and data-focused decomposition of a computer or video game!4
