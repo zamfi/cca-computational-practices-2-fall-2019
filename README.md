@@ -10,8 +10,8 @@ In this course, we'll engage in three mini-projects and a final project.
 
 [Project 1: JavaScript, React, and the Web. *September 16 - October 14.*](project1.md)
 
-[Project 2: Electronics and Robotics. *October 14 - October 28.*](project2.md)
+[Project 2: Machine Learning. *October 14 - October 28.*](project2.md)
 
-Project 3: Machine Learning. *October 28 - November 11.*
+Project 3: Electronics and Robotics. *October 28 - November 11.*
 
 Final Project: November 11 - December 14; final show *Interface*, 7pm-9pm, CCA Oliver Art Center (Oakland)
