@@ -16,7 +16,7 @@ Start by exploring [these p5.js sketches](https://editor.p5js.org/ml5/sketches) 
 
 Make sure to try out the Style Transfer, YOLO, and PoseNet examples from the ml5.js examples above. Learn about what the [ml5.js](https://ml5js.org) library is capable of by visiting that link and reading through.
 
-Next, I want you to make a change to the [YOLO - webcam](https://editor.p5js.org/ml5/sketches/IE_P4q2m0LV) example:
+Next, I want you to make a change to the [YOLO - webcam](https://editor.p5js.org/ml5/sketches/IE_P4q2m0LV) example -- make sure you "duplicate" the sketch into your account first:
 
 **Assignment**: Modify the `draw()` function so that when a **person** is detected, the camera image goes blank and instead you only see the text **STOP LOOKING AT ME**. You should not need much more than an `if` statement -- but you will need to find where the category, or "class name", can be found, so that you can compare it with `"person"` and derermine whether to blank the screen and display the text.
 
