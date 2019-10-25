@@ -23,3 +23,13 @@ Next, I want you to make a change to the [YOLO - webcam](https://editor.p5js.org
 **Assignment**: Make another modification, based on another class of object that might be detected. Or, two of the same object? 
 
 **Assignment**: Btw, what kinds of objects does the YOLO sketch detect, exactly? Where does that list come from? Do some research and answer the two previous questions.
+
+### Week 2
+
+In class, we went over the homework and explored one more assignment: modifying YOLO - webcam to recognize a sequence of three objects in the scene.
+
+**Assignment**: This week, for homework, further modify the YOLO example to use position information as an input. Take one of the [p5.js examples](https://p5js.org/examples/) that relies on user input of some form -- mouse, keyboard, etc. -- and modify it to use the position of your body as that input instead. You'll need to do some merging of code, and I'd recommend you merge the example code into the YOLO code instead of the other way around.
+
+This exercise might be on the tricky side -- feel free to work with others in the class and [email me](mailto:zamfi@cca.edu) a single assignment, but make sure to credit your partners in your submission.
+
+Please reach out by email or on Slack if you're stuck!
