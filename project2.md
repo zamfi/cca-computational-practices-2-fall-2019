@@ -33,3 +33,11 @@ In class, we went over the homework and explored one more assignment: modifying 
 This exercise might be on the tricky side -- feel free to work with others in the class and [email me](mailto:zamfi@cca.edu) a single assignment, but make sure to credit your partners in your submission.
 
 Please reach out by email or on Slack if you're stuck!
+
+### Week 3
+
+In class, we went over the homework, discussed how one might implement PeoplePong aka YOPO using the YOLO detector and person objects. In workshop, some of you experimented with other ML models like PoseNet that tracks people in a scene and where their major mobile body parts are (eyes, ears, nose, torso, arms, legs, wrists, elbows, knees, and ankles).
+
+For this week's **assignment**, I'd like you to complete your in-class group project of Pong using visual input of a human body. Use YOLO or PoseNet (or another model!) to track people and use that tracking data to control the paddles (and other stuff?) in-game. Upload your code to GitHub, and also publish your work through the p5js editor by emailing me a link to your project: click the **share** option in the p5.js web editor's File menu and [email me](mailto:zamfi@cca.edu) the "Edit" link as well as the GitHub link. (Make sure to note who contributed what in the `Readme.md` file.)
+
+Make something your team is proud of -- it should be beautiful or artistically interesting in addition to being technically capable. I'm excited to see what you come up with!
